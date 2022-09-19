@@ -1,7 +1,8 @@
 h1 {
     color:black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    size: 50px
+    size: 50px;
+    background-color:magenta;
 }
 
 h3 {
@@ -84,4 +85,37 @@ both
 both::before{
     content:"\a";
     white-space: pre;
+}
+
+table, th, td {
+    border:2px solid;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size:27px;
+    padding-top:75px;
+    padding-left:13px;
+    padding-right:33px;
+    padding-bottom:1px;
+    margin-top:50px;
+    margin-left:150px;
+}
+tr:nth-child(even)
+{
+    background-color:aquamarine;
+}
+tr:nth-child(odd)
+{
+    background-color:fuchsia;
+}
+
+th{
+    color: yellow;
+    background-color: brown;
+}
+td{
+    color:red;
+}
+
+body{
+    background-color: greenyellow;
 }
