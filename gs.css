@@ -18,8 +18,20 @@ h5 {
 
 song {
     color:black;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     size: 20px;
+}
+
+songz {
+    color:grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 20px;
+}
+
+songf {
+    color:darkslategrey;
+    font-family: 'Courier New', Courier, monospace;
+    size:20px;
 }
 
 
