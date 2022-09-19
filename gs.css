@@ -24,7 +24,7 @@ song {
 }
 
 songz {
-    color:grey;
+    color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     size: 20px;
 }
@@ -75,6 +75,17 @@ fitz::before{
     white-space: pre;
 }
 
+king
+{
+    color:green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:25px;
+}
+king::before{
+    content:"\a";
+    white-space:pre;
+}
+
 both
 {
     content: "\a";
@@ -117,5 +128,5 @@ td{
 }
 
 body{
-    background-color: greenyellow;
+    background-color: grey;
 }
