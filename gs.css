@@ -28,9 +28,48 @@ direction {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     size:25px;
 }
+direction::before {
+    content: "\a";
+    white-space: pre;
+}
 
 speech {
     color:black;
     font-family: 'Times New Roman', Times, serif;
     size:20px;
+}
+
+zara
+{
+    color:Pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:25px
+}
+zara::before{
+    content: "\a";
+    white-space: pre;
+}
+
+fitz
+{
+    content: "\a";
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:25px;
+}
+fitz::before{
+    content: "\a";
+    white-space: pre;
+}
+
+both
+{
+    content: "\a";
+    color:magenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:25px;
+}
+both::before{
+    content:"\a";
+    white-space: pre;
 }
