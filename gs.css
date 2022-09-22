@@ -93,6 +93,7 @@ king::before{
 }
 king:hover {
     background-color:yellow;
+    text-shadow: 2px 2px 5px green;
 }
 
 both
